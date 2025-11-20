@@ -1,4 +1,4 @@
 # Functional Dialog System Demo
 A fully functional dialog system demo with a minimalist TUI
 
-<img width="780" height="350" alt="dialog_app" src="https://github.com/user-attachments/assets/8f219314-7047-432b-ae3f-a7e565a11421" />
+<img width="760" height="347" alt="dialog_app_pic" src="https://github.com/user-attachments/assets/ae28f95b-3f18-44c8-8a8e-ae199f6e7f05" />
