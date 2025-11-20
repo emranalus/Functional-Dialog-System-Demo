@@ -11,14 +11,14 @@ from beartype.roar import BeartypeHintViolation
 try:
     dib = DialogBuilder()
     dib \
-        .set_root(Node("root", "root")) \
-        .add_options([Node("Hi!", f"Long time no see {os.getlogin()} its been awhile."), 
-                    Node("Wassup.", "Nothing much fixing my car as you can see..."), 
-                    Node("Bye.", "Bye to you to cya!")]) \
+        .set_root(Node('root', 'root')) \
+        .add_options([Node('Hi!', f'Long time no see {os.getlogin()} its been awhile.'), 
+                    Node('Wassup.', 'Nothing much fixing my car as you can see...'), 
+                    Node('Bye.', 'Bye to you to cya!')]) \
         .make_retainer_option(0) \
         .move_current_node_forward(1) \
-        .add_options([Node("Nice.", "Isn't she a beauty!")
-                    , Node("About...", "Yeah, right what did you wanted to talk to me about?")]) \
+        .add_options([Node('Nice.', 'Isn\'t she a beauty!')
+                    , Node('About...', 'Yeah right, what did you wanted to talk to me about?')]) \
         .make_retainer_option(0) \
         .make_stepback_option(1)
 
