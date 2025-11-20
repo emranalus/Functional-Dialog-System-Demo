@@ -1,0 +1,33 @@
+Dialog system notes
+--------------------
+I need to write a dialog tree builder and I want to use method chaining to do so for this I will need a modular
+process the process so far is input the root than input an array of options than choose which indexed option
+to manipulate to get the results we want.
+
+TO-DO:
+    * Navigating dialogs
+    * Dialog builder using method chaining
+    * Proper commenting
+    * TUI implementation
+    * Write unit tests
+    - Error display in TUI
+    - Dialog creation in TUI
+
+
+What have I learned:
+    * Yield and generator methods
+    * Class attributes and instance attributes
+    * Some DOM and widgets for web design frameworks
+    * Textual basics
+    * List comprehension
+    * What MyPy is
+    * Type hints
+    * Error handling
+    * __eq__ dunder method to make object behave like data
+    * String quote symbol consistency
+    * Same data different objects are False in '=='
+    * Same data different objects in two lists of equal length are True in '=='
+    * How to write unit tests
+    * Beartype and run-time type checking in Python
+    - What Poetry is
+
