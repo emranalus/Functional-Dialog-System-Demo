@@ -31,19 +31,19 @@ except IndexError as e:
     exit()
 
 class TryingApp(App):
-    CSS_PATH = "dialog_system_demo.tcss"
-    TITLE = "Functional Dialog System Demo"
+    CSS_PATH = 'dialog_system_demo.tcss'
+    TITLE = 'Functional Dialog System Demo'
 
     # Initializes widgets
     def compose(self) -> ComposeResult:
         # Gets computer username and greets user therefore initiating the conversation
-        self.dialog_response = Label(f"Hello {os.getlogin()}!", id="dialog_response")
+        self.dialog_response = Label(f'Hello {os.getlogin()}!', id='dialog_response')
         yield self.dialog_response
 
         # * operator removes the brackets of the list therefor unpacking it other than that its just a for loop
         # Without * operator only generator object returns so it has to be used despite looking scary
         self.root = dib.get_root()
-        self.list_view = ListView( *[ListItem(option.get_option_as_label()) for option in self.root.options] , id="options")
+        self.list_view = ListView( *[ListItem(option.get_option_as_label()) for option in self.root.options] , id='options')
         yield self.list_view
 
 
@@ -66,7 +66,7 @@ class TryingApp(App):
 
 
 # Main
-if __name__ == "__main__":
+if __name__ == '__main__':
     app = TryingApp()
     app.run()
     exit(app.return_code or 0)
