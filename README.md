@@ -4,7 +4,6 @@
 
 <img alt="python_badge" src="https://img.shields.io/badge/Python-3.13.9-blue" />
 <img alt="python_badge" src="https://img.shields.io/badge/beartype-0.22.6-brown" />
-<img alt="python_badge" src="https://img.shields.io/github/repo-size/emranalus/Functional-Dialog-System-Demo" />
 <img alt="python_badge" src="https://img.shields.io/github/license/emranalus/Functional-Dialog-System-Demo" />
 
 </p>
