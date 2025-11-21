@@ -24,7 +24,7 @@
 
 </p>
 
-'''bash
+```bash
 # Installing the demo
 git clone https://github.com/emranalus/Functional-Dialog-System-Demo
 cd .\Functional-Dialog-System-Demo\
@@ -32,4 +32,4 @@ pip install -r requirements.txt
 
 # Running the demo
 python main.py
-'''
+```
