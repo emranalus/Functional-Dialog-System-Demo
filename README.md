@@ -2,7 +2,7 @@
 
 <p align='center'>
 
-<img alt="python_badge" src="https://img.shields.io/badge/Python-3.13.9-blue" />
+<img alt="python_badge" src="https://img.shields.io/badge/Python-3.13.9-blue" style="for-the-badge"/>
 <img alt="beartype_badge" src="https://img.shields.io/badge/Beartype-0.22.6-brown" />
 <img alt="textual_badge" src="https://img.shields.io/badge/Textual-0.6.6-purple" />
 <img alt="python_badge" src="https://img.shields.io/github/license/emranalus/Functional-Dialog-System-Demo" />
